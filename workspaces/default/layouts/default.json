@@ -1,0 +1,16 @@
+{
+  "id": "root",
+  "type": "horizontal",
+  "children": [
+    {
+      "id": "log_sidebar",
+      "type": "widget",
+      "ratio": 0.20
+    },
+    {
+      "id": "chat_view",
+      "type": "widget",
+      "ratio": 0.80
+    }
+  ]
+}

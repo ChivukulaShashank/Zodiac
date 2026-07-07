@@ -1,0 +1,23 @@
+{
+  "name": "default",
+  "version": "1.0.0",
+  "zodiac_version": "0.5.5",
+  "created": "2024-01-01T00:00:00Z",
+  "modified": "2024-01-01T00:00:00Z",
+  "ram_budget_mb": 4096,
+  "active_theme": "dark",
+  "active_layout": "default",
+  "catalog": {
+    "api_url": "https://huggingface.co/api/models",
+    "search_filter": "gguf",
+    "sort": "downloads",
+    "direction": -1,
+    "ram_overhead_percent": 10
+  },
+  "models": [],
+  "constellations": [],
+  "personas": [],
+  "tools": [],
+  "themes": [],
+  "layouts": []
+}

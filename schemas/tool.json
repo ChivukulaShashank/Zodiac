@@ -1,0 +1,24 @@
+{
+  "type": "object",
+  "properties": {
+    "name": { "type": "string" },
+    "executable": { "type": "string" },
+    "type": { "type": "string", "enum": ["action"] },
+    "timeout_seconds": { "type": "integer" },
+    "trigger_instruction": { "type": "string" },
+    "output_mode": { "type": "string", "enum": ["agent", "console"] },
+    "permissions": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  },
+  "required": [
+    "name",
+    "executable",
+    "type",
+    "timeout_seconds",
+    "trigger_instruction",
+    "output_mode",
+    "permissions"
+  ]
+}

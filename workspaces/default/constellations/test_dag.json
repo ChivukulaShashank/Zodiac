@@ -1,0 +1,18 @@
+{
+  "name": "test_dag",
+  "agents": [
+    {
+      "id": "writer",
+      "model": "qwen2.5-0.5b.gguf",
+      "allowed_tools": ["echo", "alarm"],
+      "persona": "assistant"
+    },
+    {
+      "id": "reviewer",
+      "model": "qwen2.5-0.5b.gguf"
+    }
+  ],
+  "connections": [
+    { "from": "writer", "to": "reviewer" }
+  ]
+}

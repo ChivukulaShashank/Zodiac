@@ -1,0 +1,9 @@
+{
+  "name": "alarm",
+  "executable": "./alarm_tool",
+  "type": "action",
+  "timeout_seconds": 10,
+  "trigger_instruction": "To set an alarm, output exactly: TOOL_ALARM: <message>",
+  "output_mode": "console",
+  "permissions": ["notifications"]
+}

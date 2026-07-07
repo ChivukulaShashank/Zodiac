@@ -1,0 +1,15 @@
+services:
+  zodiac-dev:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: zodiac-dev
+    volumes:
+      - ./src:/home/shashank/workspace/zodiac/zodiac/src
+      - ./workspaces:/home/shashank/workspace/zodiac/zodiac/workspaces
+      - ./models:/home/shashank/workspace/zodiac/zodiac/models
+    stdin_open: true
+    tty: true
+    environment:
+      - ZODIAC_ENV=development
+      - ZODIAC_LOG_LEVEL=debug

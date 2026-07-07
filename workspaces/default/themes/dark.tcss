@@ -1,0 +1,42 @@
+Screen {
+    background: #1e1e1e;
+    color: #d4d4d4;
+}
+
+Sidebar {
+    background: #252526;
+}
+
+#message-container {
+    height: 1fr;
+    overflow-y: auto;
+}
+
+WelcomeMessage {
+    width: 100%;
+    content-align: center middle;
+    margin-top: 10;
+    color: #d4d4d4;
+    text-align: center;
+}
+
+Input {
+    border: solid #569cd6;
+    background: #2d2d30;
+    margin: 1 2;
+}
+
+.user-message {
+    text-style: bold;
+    color: #9cdcfe;
+    margin-top: 1;
+    margin-left: 2;
+    margin-right: 2;
+}
+
+.ai-message {
+    color: #d4d4d4;
+    margin-bottom: 1;
+    margin-left: 2;
+    margin-right: 2;
+}

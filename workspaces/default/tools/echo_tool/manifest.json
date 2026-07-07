@@ -1,0 +1,9 @@
+{
+  "name": "echo",
+  "executable": "./run.sh",
+  "type": "action",
+  "timeout_seconds": 5,
+  "trigger_instruction": "To echo text, output exactly: TOOL_ECHO: <text to echo>",
+  "output_mode": "agent",
+  "permissions": ["none"]
+}

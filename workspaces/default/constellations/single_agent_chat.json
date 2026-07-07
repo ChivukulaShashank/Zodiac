@@ -1,0 +1,12 @@
+{
+  "name": "single_agent_chat",
+  "agents": [
+    {
+      "id": "assistant",
+      "model": "qwen2.5-0.5b.gguf",
+      "persona": "assistant",
+      "allowed_tools": []
+    }
+  ],
+  "connections": []
+}

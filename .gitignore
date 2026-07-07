@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+
+# Zodiac Specific
+models/*.gguf
+models/*.bin
+
+# OS Files
+.DS_Store
+Thumbs.db
